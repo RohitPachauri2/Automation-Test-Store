@@ -41,7 +41,7 @@ WebDriverWait wait;
 		js.executeScript("arguments[0].scrollBy({top:0,left:200,behavior:'smooth'})",scrolldiv);
 		Thread.sleep(1000);
 		String val=(String)js.executeScript("return window.location.href");
-		System.out.println(val);
+//		System.out.println(val);
 	}
 	@AfterMethod
 	public void wrapingup() {
