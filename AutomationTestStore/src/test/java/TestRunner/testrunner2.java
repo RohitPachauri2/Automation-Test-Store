@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		plugin= {"pretty","html:Reports/testrunner2.html"},
-		glue= {"StepDefinition"},
+		glue= {"StepDefinition","hooks"},
 		features= {"src/test/resources/Feature/Searchbox.feature"},
 		dryRun=false,
 		monochrome=true

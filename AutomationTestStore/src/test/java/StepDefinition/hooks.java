@@ -29,13 +29,24 @@ public DriverClass dc;
 	}
 	@After
 	public void closingdrver(Scenario sc) {
-		
+if(!sc.isFailed()) {
+			
+			TakesScreenshot tk=(TakesScreenshot)driver;
+			File srcfile=tk.getScreenshotAs(OutputType.FILE);
+			try {
+				File dest=new File("Screenshot/14thmarch/"+sc.getStatus()+(sc.getName().replace(" ","_"))+".png");
+				FileUtils.copyFile(srcfile, dest);
+			} catch (IOException e) {
+				
+				e.printStackTrace();
+			}
+		}
 		if(sc.isFailed()) {
 			
 			TakesScreenshot tk=(TakesScreenshot)driver;
 			File srcfile=tk.getScreenshotAs(OutputType.FILE);
 			try {
-				File dest=new File("Screenshot/"+sc.getName().replace(" ","_")+".png");
+				File dest=new File("Screenshot/14thmarch/"+sc.getStatus()+(sc.getName().toString().replace(" ","_"))+".png");
 				FileUtils.copyFile(srcfile, dest);
 			} catch (IOException e) {
 				
