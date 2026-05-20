@@ -15,7 +15,7 @@ public class twentyoneapril {
     
 	@Test
 	public void step123() {
-		MainClass mc=new MainClass(driver, wait, action);
+		//MainClass mc=new MainClass(driver, wait, action);
 		mc.step1();
 		mc.step2();
 		mc.step3();
