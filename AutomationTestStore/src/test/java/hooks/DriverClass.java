@@ -23,6 +23,8 @@ public class DriverClass {
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
+        
+        //this line is added for testing ci/cd commit
 
         driver.manage().window().maximize();
         driver.get("https://www.demoblaze.com/index.html");
