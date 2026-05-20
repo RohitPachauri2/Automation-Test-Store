@@ -13,10 +13,10 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class AAlerts_practice {
+public class AAlerts_Test {
 	WebDriver driver;
 	WebDriverWait wait;
-@Test
+	@Test
 	public void firstmethod() {
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
