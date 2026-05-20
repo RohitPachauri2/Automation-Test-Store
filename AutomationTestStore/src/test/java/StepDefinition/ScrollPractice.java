@@ -28,7 +28,6 @@ WebDriverWait wait;
 		action=new Actions(driver);
 		wait=new WebDriverWait(driver, Duration.ofSeconds(5));
 		driver.manage().window().maximize();
-		driver.manage().timeouts().im
 	}
 	@Test
 	public void sscrollingpractice()throws InterruptedException{
