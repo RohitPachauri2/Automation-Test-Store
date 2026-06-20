@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 15 20:54:09 IST 2026</td>
+<td>Started on:</td><td>Thu Jun 04 21:06:02 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>30 seconds (30114 ms)</td>
+<tr><td>Total time:</td><td>56 seconds (56249 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,59 +76,33 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.testrunner6.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testrunner6<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature1"</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+<td title='TestRunner.practice.runScenario()'><b>runScenario</b><br>Test class: TestRunner.practice<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature for checking adding men product and books"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div.contentpanel&gt;div:nth-child(5)&gt;div&gt;div:nth-child(1)&gt;div&gt;a (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ffed7a3771ce14c6adced042e2da10fe, clickElement {id=f.417D66DB5021314180E37261D722A0AA.d.50E7504F2B281EC003BB6D124BFAF84F.e.109}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52153}, goog:processID: 5724, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52153/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ffed7a3771ce14c6adced042e2da10fe)] -&gt; css selector: div.features_items&gt;div:nth-child(10)&gt;div&gt;div:nth-child(2)&gt;ul&gt;li&gt;a]
-Session ID: ffed7a3771ce14c6adced042e2da10fe
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at StepDefinition.stepdefinition1.selects_two_products_and_add_them_to_cart(stepdefinition1.java:41)
-	at ✽.selects two products and add them to cart(file:///C:/Users/PC/git/AutomationTestStore/AutomationTestStore/src/test/resources/Feature/function.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2068450031", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2068450031'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52320}, goog:processID: 9648, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52320/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996795ddbe7fa8b7c8b8830b609141a4
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Pages.practice.getnamesofproduct(practice.java:104)
+	at StepDefinition.practice.user_is_able_to_appropraite_products(practice.java:54)
+	at ✽.user is able to appropraite products(file:///C:/Users/PC/git/AutomationTestStore/AutomationTestStore/src/test/resources/Feature/practice.feature:17)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1625539182", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1625539182'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: div.contentpanel&gt;div:nth-child(5)&gt;div&gt;div:nth-child(1)&gt;div&gt;a (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ffed7a3771ce14c6adced042e2da10fe, clickElement {id=f.417D66DB5021314180E37261D722A0AA.d.50E7504F2B281EC003BB6D124BFAF84F.e.109}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52153}, goog:processID: 5724, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52153/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ffed7a3771ce14c6adced042e2da10fe)] -&gt; css selector: div.features_items&gt;div:nth-child(10)&gt;div&gt;div:nth-child(2)&gt;ul&gt;li&gt;a]
-Session ID: ffed7a3771ce14c6adced042e2da10fe
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at StepDefinition.stepdefinition1.selects_two_products_and_add_them_to_cart(stepdefinition1.java:41)
-	at ✽.selects two products and add them to cart(file:///C:/Users/PC/git/AutomationTestStore/AutomationTestStore/src/test/resources/Feature/function.feature:5)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52320}, goog:processID: 9648, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52320/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996795ddbe7fa8b7c8b8830b609141a4
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Pages.practice.getnamesofproduct(practice.java:104)
+	at StepDefinition.practice.user_is_able_to_appropraite_products(practice.java:54)
+	at ✽.user is able to appropraite products(file:///C:/Users/PC/git/AutomationTestStore/AutomationTestStore/src/test/resources/Feature/practice.feature:17)
 </pre></div></td>
-<td>12</td>
-<td>TestRunner.testrunner6@4e50c791</td></tr>
+<td>22</td>
+<td>TestRunner.practice@4e50c791</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -139,15 +113,15 @@ Session ID: ffed7a3771ce14c6adced042e2da10fe
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.testrunner6.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testrunner6<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature1"</td>
+<td title='TestRunner.practice.runScenario()'><b>runScenario</b><br>Test class: TestRunner.practice<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature for checking adding men product and books"</td>
 <td></td>
-<td>2</td>
-<td>TestRunner.testrunner6@4e50c791</td></tr>
+<td>16</td>
+<td>TestRunner.practice@4e50c791</td></tr>
 <tr>
-<td title='TestRunner.testrunner6.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testrunner6<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "feature1"</td>
+<td title='TestRunner.practice.runScenario()'><b>runScenario</b><br>Test class: TestRunner.practice<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Feature for checking adding men product and books"</td>
 <td></td>
-<td>2</td>
-<td>TestRunner.testrunner6@4e50c791</td></tr>
+<td>15</td>
+<td>TestRunner.practice@4e50c791</td></tr>
 </table><p>
 </body>
 </html>

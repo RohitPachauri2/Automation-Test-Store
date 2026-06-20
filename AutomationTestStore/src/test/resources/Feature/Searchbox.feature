@@ -12,6 +12,6 @@ Feature: To Test searchbox with dynamic searches
     Then user is able to see all elements in cart
 
     Examples:
-      | search |
-      | men    |
-      | women  |
+      |search|
+      |men|
+      |women|

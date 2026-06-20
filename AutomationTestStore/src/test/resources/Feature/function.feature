@@ -1,5 +1,5 @@
 Feature: feature1
-Scenario:
+Background: background
 Given user is on the  homepage of the website automation
 When user clicks on products link
 And selects two products and add them to cart

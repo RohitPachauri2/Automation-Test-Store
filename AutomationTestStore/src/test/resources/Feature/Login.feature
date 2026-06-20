@@ -1,9 +1,10 @@
 Feature: Checking login feature
 
-  Background: Checking positive login functionality
-    Given user is navigated to home page
-    When user enters "rohitpachauri2" and "rmv123*#R" and clicks login
+  Background: Checking positive login functionalitys
+    Given user is navigated to home pagesss
+    When user enters "rohitpachauri2" and "rmv123*#R" and clicks logins
     Then user is logged in
+
 
 #    Examples:
 #      | username         | password    |
